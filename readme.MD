@@ -13,7 +13,8 @@ It describes the data structures and functions used in the original source code 
 
 In order to implement the new syntax & commands, I updated the DECLARATIONS, NAME MANAGEMENT, INPUT & MAIN sections and also added a new section entitled NEW PARSING ROUTINES. See the following document for a side by side comparison of the old vs. new grammar & syntax and a detailed description of the program changes.
 
-- __[Comparison](docs/comparison.pdf)__ - new vs. old grammar/syntax and related program changes.\ **NOTE:** Table 3 in this document lists some old & new code side by side in 2 columns. About halfway down column 1, the old code lines get out of synch with column 2 by being shifted down one line. This occurred when converting my original RTF to PDF because github does not render RTFs. The misalignment begins at the line `parseNL := mkNamelist(nm, nl)` in column 1. If you want to see perfect alignment then download the RTF (`comparison.rtf`) from the docs folder and open it in a word processor like LibreOffice Writer.
+- __[Comparison](docs/comparison.pdf)__ - new vs. old grammar/syntax and related program changes.\
+**NOTE:** Table 3 in this document lists some old & new code side by side in 2 columns. About halfway down column 1, the old code lines get out of synch with column 2 by being shifted down one line. This occurred when converting my original RTF to PDF because github does not render RTFs. The misalignment begins at the line `parseNL := mkNamelist(nm, nl)` in column 1. If you want to see perfect alignment then download the RTF (`comparison.rtf`) from the docs folder and open it in a word processor like LibreOffice Writer.
 
 ## Interactive Run
 
