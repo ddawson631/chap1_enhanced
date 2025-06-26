@@ -282,6 +282,25 @@ gcd(6,15)$
 48/12/2$
 2
 
+!relational operators
+5<10$
+1
+
+5>10$
+0
+
+5=5$
+1
+
+10<5$
+0
+
+10<5>-1$
+1
+
+10<5>-1=1$
+1
+
 !Keywords cannot be redefined
 fun if (x) := x+5 nuf$
 mutate: found if  where nameid or funid is expected.
