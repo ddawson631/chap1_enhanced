@@ -328,7 +328,7 @@ inc10
 inc10:=25$
 Error in match. Found :=  where ( is expected.
 
-!Multiplie assignment
+!Multiple assignment
 i:=j:=k:=25$
 25
 
@@ -495,7 +495,7 @@ a(b:=25$
 fun inc10 (x) := x+10 nuf$
 inc10:=25$
 
-!Multiplie assignment
+!Multiple assignment
 i:=j:=k:=25$
 i$
 j$
