@@ -868,8 +868,10 @@ begin
     tokindex := parseName
 end; (* getToken *)
 
+(* mutate nameidsy to funidsy or vice versa.
+   A name is initially installed with type nameidsy. See install().
+   If it is part of a fundef then mutate is called to set its type to funidsy. *)
 procedure mutate(newtype:token);
-(* change nameidsy to funidsy or vice versa *)
 begin
   if (toksy <> nameidsy) and (toksy <> funidsy) then
     begin
